@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7943A47939666FC66E80E8DF2E9E61 /* NAKPlaybackIndicatorContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BB2EB42428DD7B46077FDBEFA5ABB0 /* NAKPlaybackIndicatorContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D46E784631D1B0CD686F4220BD30593 /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A1B0624BAD2FFEE2C3E4E2D19B34BC /* NAKPlaybackIndicatorView.m */; };
+		55DB1055E40353808B2E89615DD81C42 /* NAKPlaybackIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA59E42FA956E49C7CED6C9540A6E63 /* NAKPlaybackIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76E11D607B8E8EB0D8DDBAB70EDDCBB5 /* NAKPlaybackIndicatorViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 750C6F79CC1649D9A2103193A23C727B /* NAKPlaybackIndicatorViewStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5A2A2C25F2D4039204A769CB0E73288 /* NAKPlaybackIndicatorViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AD7488EE9F8C7B7ED1B497C1AB7C2 /* NAKPlaybackIndicatorViewStyle.m */; };
+		A80DF8BD2B129C38E73ED56B6889C348 /* NAKPlaybackIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151B15477C580D12212A8F1206A89117 /* NAKPlaybackIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2FE0619E13A2B42D9109936412AE0A0 /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB201B300863645AE70AFE28B534E696 /* NAKPlaybackIndicatorContentView.m */; };
+		E4254712C5BCC79C7A9374B10D041315 /* NAKPlaybackIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725EEA3B3E85308E8480A1CFAE653D5A /* NAKPlaybackIndicatorView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D9E63819F79BDE084CFC7F3E31DE239 /* NAKPlaybackIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NAKPlaybackIndicatorView.modulemap; sourceTree = "<group>"; };
+		151B15477C580D12212A8F1206A89117 /* NAKPlaybackIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NAKPlaybackIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		70A1B0624BAD2FFEE2C3E4E2D19B34BC /* NAKPlaybackIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAKPlaybackIndicatorView.m; path = Classes/NAKPlaybackIndicatorView.m; sourceTree = "<group>"; };
+		725EEA3B3E85308E8480A1CFAE653D5A /* NAKPlaybackIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NAKPlaybackIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		750C6F79CC1649D9A2103193A23C727B /* NAKPlaybackIndicatorViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAKPlaybackIndicatorViewStyle.h; path = Classes/NAKPlaybackIndicatorViewStyle.h; sourceTree = "<group>"; };
+		7F5AD7488EE9F8C7B7ED1B497C1AB7C2 /* NAKPlaybackIndicatorViewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAKPlaybackIndicatorViewStyle.m; path = Classes/NAKPlaybackIndicatorViewStyle.m; sourceTree = "<group>"; };
+		9FA59E42FA956E49C7CED6C9540A6E63 /* NAKPlaybackIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAKPlaybackIndicatorView.h; path = Classes/NAKPlaybackIndicatorView.h; sourceTree = "<group>"; };
+		B128C5A6B39CB3083E906581408B8CBF /* libNAKPlaybackIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNAKPlaybackIndicatorView.a; path = libNAKPlaybackIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BB2EB42428DD7B46077FDBEFA5ABB0 /* NAKPlaybackIndicatorContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAKPlaybackIndicatorContentView.h; path = Classes/NAKPlaybackIndicatorContentView.h; sourceTree = "<group>"; };
+		FB201B300863645AE70AFE28B534E696 /* NAKPlaybackIndicatorContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NAKPlaybackIndicatorContentView.m; path = Classes/NAKPlaybackIndicatorContentView.m; sourceTree = "<group>"; };
+		FB21112D130349B7532C82618E7091E1 /* NAKPlaybackIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NAKPlaybackIndicatorView.xcconfig; sourceTree = "<group>"; };
+		FE3AAA30666A55698D23AA5429A7CC5D /* NAKPlaybackIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NAKPlaybackIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1ADAFFBA810249B5747C48FAC5B8D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F79F5097E720D03050036A5C5EFC77 /* NAKPlaybackIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB2EB42428DD7B46077FDBEFA5ABB0 /* NAKPlaybackIndicatorContentView.h */,
+				FB201B300863645AE70AFE28B534E696 /* NAKPlaybackIndicatorContentView.m */,
+				9FA59E42FA956E49C7CED6C9540A6E63 /* NAKPlaybackIndicatorView.h */,
+				70A1B0624BAD2FFEE2C3E4E2D19B34BC /* NAKPlaybackIndicatorView.m */,
+				750C6F79CC1649D9A2103193A23C727B /* NAKPlaybackIndicatorViewStyle.h */,
+				7F5AD7488EE9F8C7B7ED1B497C1AB7C2 /* NAKPlaybackIndicatorViewStyle.m */,
+				E2524CEA27BF825AE9DE4922036A9781 /* Support Files */,
+			);
+			name = NAKPlaybackIndicatorView;
+			path = NAKPlaybackIndicatorView;
+			sourceTree = "<group>";
+		};
+		E2524CEA27BF825AE9DE4922036A9781 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9E63819F79BDE084CFC7F3E31DE239 /* NAKPlaybackIndicatorView.modulemap */,
+				FB21112D130349B7532C82618E7091E1 /* NAKPlaybackIndicatorView.xcconfig */,
+				725EEA3B3E85308E8480A1CFAE653D5A /* NAKPlaybackIndicatorView-dummy.m */,
+				FE3AAA30666A55698D23AA5429A7CC5D /* NAKPlaybackIndicatorView-prefix.pch */,
+				151B15477C580D12212A8F1206A89117 /* NAKPlaybackIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NAKPlaybackIndicatorView";
+			sourceTree = "<group>";
+		};
+		EE1E27649D3A7574E8E4193FBE4E563D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B128C5A6B39CB3083E906581408B8CBF /* libNAKPlaybackIndicatorView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4EBFDC863C162A06470F40E8BB17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20E456EDC40115FA6B44ED73EB95038 = {
+			isa = PBXGroup;
+			children = (
+				EEF4EBFDC863C162A06470F40E8BB17F /* Frameworks */,
+				12F79F5097E720D03050036A5C5EFC77 /* NAKPlaybackIndicatorView */,
+				EE1E27649D3A7574E8E4193FBE4E563D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		595175A4D3622F0A73E81B2B53A1E488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7943A47939666FC66E80E8DF2E9E61 /* NAKPlaybackIndicatorContentView.h in Headers */,
+				A80DF8BD2B129C38E73ED56B6889C348 /* NAKPlaybackIndicatorView-umbrella.h in Headers */,
+				55DB1055E40353808B2E89615DD81C42 /* NAKPlaybackIndicatorView.h in Headers */,
+				76E11D607B8E8EB0D8DDBAB70EDDCBB5 /* NAKPlaybackIndicatorViewStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F38902D865E9C8841AF31DD54490FAE8 /* NAKPlaybackIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F99DCC164CBC03A7AEF020F2A6C81B4 /* Build configuration list for PBXNativeTarget "NAKPlaybackIndicatorView" */;
+			buildPhases = (
+				595175A4D3622F0A73E81B2B53A1E488 /* Headers */,
+				0BF901275B3B841692729CA3DA06B0A1 /* Sources */,
+				D1ADAFFBA810249B5747C48FAC5B8D16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAKPlaybackIndicatorView;
+			productName = NAKPlaybackIndicatorView;
+			productReference = B128C5A6B39CB3083E906581408B8CBF /* libNAKPlaybackIndicatorView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5B679935817D7B3CCA32563599AF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = B65CCB635B43DE174B41C99BB332D1D4 /* Build configuration list for PBXProject "NAKPlaybackIndicatorView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20E456EDC40115FA6B44ED73EB95038;
+			productRefGroup = EE1E27649D3A7574E8E4193FBE4E563D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38902D865E9C8841AF31DD54490FAE8 /* NAKPlaybackIndicatorView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF901275B3B841692729CA3DA06B0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FE0619E13A2B42D9109936412AE0A0 /* NAKPlaybackIndicatorContentView.m in Sources */,
+				E4254712C5BCC79C7A9374B10D041315 /* NAKPlaybackIndicatorView-dummy.m in Sources */,
+				3D46E784631D1B0CD686F4220BD30593 /* NAKPlaybackIndicatorView.m in Sources */,
+				A5A2A2C25F2D4039204A769CB0E73288 /* NAKPlaybackIndicatorViewStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C3E00FE34099DB50575244F767C86B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		10CF20ADE8950626FBFDD5D6FCB65C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		181E9C5A93CF530C26D9A5D1EAF2E2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB21112D130349B7532C82618E7091E1 /* NAKPlaybackIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NAKPlaybackIndicatorView/NAKPlaybackIndicatorView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NAKPlaybackIndicatorView/NAKPlaybackIndicatorView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NAKPlaybackIndicatorView;
+				PRODUCT_NAME = NAKPlaybackIndicatorView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF6C4FF3B17356E5714AABFE9835042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB21112D130349B7532C82618E7091E1 /* NAKPlaybackIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NAKPlaybackIndicatorView/NAKPlaybackIndicatorView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NAKPlaybackIndicatorView/NAKPlaybackIndicatorView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NAKPlaybackIndicatorView;
+				PRODUCT_NAME = NAKPlaybackIndicatorView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F99DCC164CBC03A7AEF020F2A6C81B4 /* Build configuration list for PBXNativeTarget "NAKPlaybackIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E9C5A93CF530C26D9A5D1EAF2E2FB /* Debug */,
+				CCF6C4FF3B17356E5714AABFE9835042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65CCB635B43DE174B41C99BB332D1D4 /* Build configuration list for PBXProject "NAKPlaybackIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CF20ADE8950626FBFDD5D6FCB65C4B /* Debug */,
+				0C3E00FE34099DB50575244F767C86B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5B679935817D7B3CCA32563599AF4C /* Project object */;
+}

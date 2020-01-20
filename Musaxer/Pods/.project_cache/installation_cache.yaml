@@ -1,0 +1,71 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  AFNetworking:
+    BUILD_SETTINGS_CHECKSUM:
+      AFNetworking: 15ed808931f80ab50a0bfa1495f3b194
+    CHECKSUM: b6f891fdfaed196b46c7a83cf209e09697b94057
+    PROJECT_NAME: AFNetworking
+    SPECS:
+      - AFNetworking (3.2.1)
+      - AFNetworking/NSURLSession (3.2.1)
+      - AFNetworking/Reachability (3.2.1)
+      - AFNetworking/Security (3.2.1)
+      - AFNetworking/Serialization (3.2.1)
+      - AFNetworking/UIKit (3.2.1)
+  FreeStreamer:
+    BUILD_SETTINGS_CHECKSUM:
+      FreeStreamer: 7e9a08bd54194576bcde68de451e2635
+    CHECKSUM: 7e9c976045701ac2f7e9c14c17245203c37bf2ea
+    PROJECT_NAME: FreeStreamer
+    SPECS:
+      - FreeStreamer (4.0.0)
+  GVUserDefaults:
+    BUILD_SETTINGS_CHECKSUM:
+      GVUserDefaults: 87b3e6d87568627ca68be414224009f5
+    CHECKSUM: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+    PROJECT_NAME: GVUserDefaults
+    SPECS:
+      - GVUserDefaults (1.0.2)
+  MBProgressHUD:
+    BUILD_SETTINGS_CHECKSUM:
+      MBProgressHUD: 57f246bcd6ba3e70c291e4efd2d5942e
+    CHECKSUM: e7baa36a220447d8aeb12769bf0585582f3866d9
+    PROJECT_NAME: MBProgressHUD
+    SPECS:
+      - MBProgressHUD (1.1.0)
+  MJExtension:
+    BUILD_SETTINGS_CHECKSUM:
+      MJExtension: fa76c4e3f921eb870284089ab5f5c562
+    CHECKSUM: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+    PROJECT_NAME: MJExtension
+    SPECS:
+      - MJExtension (3.2.1)
+  NAKPlaybackIndicatorView:
+    BUILD_SETTINGS_CHECKSUM:
+      NAKPlaybackIndicatorView: 88f742fa506c1be6b6cf6d5b89aa30ba
+    CHECKSUM: f1468937ae3828ef6e9a50feda0781fdfa67dce8
+    PROJECT_NAME: NAKPlaybackIndicatorView
+    SPECS:
+      - NAKPlaybackIndicatorView (0.1.1)
+  Pods-Musaxer:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 5da3fb1e7640132cdf6bd52f36b5d730
+      Release: 5da3fb1e7640132cdf6bd52f36b5d730
+  Reachability:
+    BUILD_SETTINGS_CHECKSUM:
+      Reachability: d1cc3d90152c2c2f49cfe3febd151408
+    CHECKSUM: 33e18b67625424e47b6cde6d202dce689ad7af96
+    PROJECT_NAME: Reachability
+    SPECS:
+      - Reachability (3.2)
+  SDWebImage:
+    BUILD_SETTINGS_CHECKSUM:
+      SDWebImage: 28f0e53e14fb7fd6dd177c1e5593b68c
+    CHECKSUM: 4ca2dc4eefae4224bea8f504251cda485a363745
+    PROJECT_NAME: SDWebImage
+    SPECS:
+      - SDWebImage (5.4.2)
+      - SDWebImage/Core (5.4.2)
+OBJECT_VERSION: 50

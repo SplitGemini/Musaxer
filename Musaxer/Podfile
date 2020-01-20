@@ -1,0 +1,33 @@
+DEPLOYMENT_VERSION = '9.0'.freeze
+DEPLOYMENT_TARGET_KEY = 'IPHONEOS_DEPLOYMENT_TARGET'.freeze
+# All pods will have at least this version to prevent Xcode warnings
+PODS_MIN_DEPLOYMENT_VERSION = '8.0'.freeze
+
+platform :ios, DEPLOYMENT_VERSION
+
+target 'Musaxer' do
+ pod 'FreeStreamer'
+ pod 'SDWebImage'
+ pod 'GVUserDefaults'
+ pod 'MBProgressHUD'
+ pod 'MJExtension'
+ pod 'AFNetworking'
+ pod 'NAKPlaybackIndicatorView'
+ pod 'FTPopOverMenu'
+end
+
+def fix_deployment_targets(installer)
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configuration_list.build_configurations.each do |config|
+        if config.build_settings[DEPLOYMENT_TARGET_KEY].to_f < PODS_MIN_DEPLOYMENT_VERSION.to_f
+          config.build_settings[DEPLOYMENT_TARGET_KEY] = PODS_MIN_DEPLOYMENT_VERSION
+        end
+      end
+    end
+  end
+end
+
+post_install do |installer|
+  fix_deployment_targets installer
+end

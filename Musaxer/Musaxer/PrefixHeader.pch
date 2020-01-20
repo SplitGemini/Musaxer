@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  Musaxer
+//
+//  Created by 郭弘 on 2020/1/6.
+//  Copyright © 2020 郭弘. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Helper.h"
+#import "Common.h"
+#import "Music.h"
+#import "Player.h"
+#import "GVUserDefaults+Properties.h"
+
+
+// Properties
+#define JSON_DATA_URL             @"https://raw.githubusercontent.com/SplitGemini/Music/master/Tracks.json"
+#define DefaultBackgroudColor     [UIColor colorWithWhite:0.941 alpha:1.000]
+
+// Main Screen
+#define SCREEN_HEIGHT             [[UIScreen mainScreen]bounds].size.height
+#define SCREEN_WIDTH              [[UIScreen mainScreen]bounds].size.width
+
+#define CURRENT_VIEW_WIDTH        self.view.frame.size.width
+#define CURRENT_VIEW_HEIGTH       self.view.frame.size.height
+
+#define CURRENT_FRAME_WIDTH       self.frame.size.width
+#define CURRENT_FRAME_HEIGTH      self.frame.size.height
+
+#define KEYWINDOW                 [[[UIApplication sharedApplication] delegate] window]
+#define APP                       ((AppDelegate*)[UIApplication sharedApplication].delegate)
+
+// Weak self define
+#define weakSELF                  __weak typeof(self) weakSelf = self;
+
+// Strong self define
+#define strongSELF                __strong typeof(weakSelf) strongSelf = weakSelf
+
+//Player
+#define PLAYER                    [Player defaultPlayer]
+
+//User default setting
+#define USER                      [GVUserDefaults standardUserDefaults]
+
+#endif /* __OBJC__ */
+#endif /* PrefixHeader_pch */

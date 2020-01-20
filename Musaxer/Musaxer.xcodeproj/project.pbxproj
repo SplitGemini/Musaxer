@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0971BAE630B88E2D0D0B487 /* libPods-Musaxer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E84A8E964AEA36788620B1AC /* libPods-Musaxer.a */; };
+		E6080ED623B5EF8A00844C79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080ED523B5EF8A00844C79 /* AppDelegate.m */; };
+		E6080EE123B5EF9800844C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6080EE023B5EF9800844C79 /* Assets.xcassets */; };
+		E6080EE423B5EF9900844C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6080EE223B5EF9900844C79 /* LaunchScreen.storyboard */; };
+		E6080EE723B5EF9900844C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080EE623B5EF9900844C79 /* main.m */; };
+		E6080EEF23B5F7E100844C79 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6080EEE23B5F7E100844C79 /* List.storyboard */; };
+		E6080EF223B5F9AC00844C79 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080EF123B5F9AC00844C79 /* ListCell.m */; };
+		E6080EF623B60AC400844C79 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080EF523B60AC400844C79 /* ListViewController.m */; };
+		E6080EF923B60B7C00844C79 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080EF823B60B7C00844C79 /* MusicViewController.m */; };
+		E6080F0123B6150F00844C79 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080F0023B6150F00844C79 /* Music.m */; };
+		E6080F0323B6219300844C79 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6080F0223B6219300844C79 /* Music.storyboard */; };
+		E6080F1C23B644E600844C79 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080F1B23B644E600844C79 /* Slider.m */; };
+		E6080F2023B64A6600844C79 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080F1F23B64A6600844C79 /* Helper.m */; };
+		E6080F2323B74FF300844C79 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = E6080F2223B74FF300844C79 /* GVUserDefaults+Properties.m */; };
+		E608334E23CC460700B5DBF0 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E608334D23CC460700B5DBF0 /* NetworkHelper.m */; };
+		E608335223CC773C00B5DBF0 /* DeliveryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E608335123CC773C00B5DBF0 /* DeliveryView.xib */; };
+		E608335523CC78E500B5DBF0 /* DeliveryView.m in Sources */ = {isa = PBXBuildFile; fileRef = E608335423CC78E500B5DBF0 /* DeliveryView.m */; };
+		E60FCA4223C972250084B7E6 /* CDRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FCA4123C972250084B7E6 /* CDRotationView.m */; };
+		E60FCA4523C9726E0084B7E6 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FCA4423C9726E0084B7E6 /* AlbumView.m */; };
+		E60FCA4823C97FEF0084B7E6 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60FCA4723C97FEE0084B7E6 /* NetworkExtension.framework */; };
+		E622ED8D23C90C1100351516 /* Lyric.m in Sources */ = {isa = PBXBuildFile; fileRef = E622ED8C23C90C1100351516 /* Lyric.m */; };
+		E622ED8F23C910AD00351516 /* ListBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E622ED8E23C910AD00351516 /* ListBottomView.xib */; };
+		E64B7AA723C3A43D00E5301F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E64B7AA623C3A43D00E5301F /* Player.m */; };
+		E64B7AAD23C3D4BF00E5301F /* ListBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64B7AAC23C3D4BF00E5301F /* ListBottomView.m */; };
+		E6FE8DD723CAA112002D94C3 /* LyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FE8DD623CAA112002D94C3 /* LyricViewController.m */; };
+		E6FE8DDA23CAA653002D94C3 /* LyricCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FE8DD923CAA653002D94C3 /* LyricCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20CFEF50CC04E062829F71B8 /* Pods-Musaxer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musaxer.release.xcconfig"; path = "Target Support Files/Pods-Musaxer/Pods-Musaxer.release.xcconfig"; sourceTree = "<group>"; };
+		5219C56B5EB92C6932906131 /* Pods-Musaxer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musaxer.debug.xcconfig"; path = "Target Support Files/Pods-Musaxer/Pods-Musaxer.debug.xcconfig"; sourceTree = "<group>"; };
+		E6080ED123B5EF8A00844C79 /* Musaxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musaxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6080ED423B5EF8A00844C79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6080ED523B5EF8A00844C79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6080EE023B5EF9800844C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6080EE323B5EF9900844C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6080EE523B5EF9900844C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6080EE623B5EF9900844C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6080EEE23B5F7E100844C79 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		E6080EF023B5F9AC00844C79 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		E6080EF123B5F9AC00844C79 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		E6080EF423B60AC400844C79 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E6080EF523B60AC400844C79 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E6080EF723B60B7C00844C79 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		E6080EF823B60B7C00844C79 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		E6080EFF23B6150F00844C79 /* Music.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		E6080F0023B6150F00844C79 /* Music.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		E6080F0223B6219300844C79 /* Music.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
+		E6080F1A23B644E600844C79 /* Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		E6080F1B23B644E600844C79 /* Slider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		E6080F1E23B64A6600844C79 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		E6080F1F23B64A6600844C79 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		E6080F2123B74FF200844C79 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		E6080F2223B74FF300844C79 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
+		E608334C23CC460700B5DBF0 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		E608334D23CC460700B5DBF0 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		E608335123CC773C00B5DBF0 /* DeliveryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryView.xib; sourceTree = "<group>"; };
+		E608335323CC78E500B5DBF0 /* DeliveryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryView.h; sourceTree = "<group>"; };
+		E608335423CC78E500B5DBF0 /* DeliveryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryView.m; sourceTree = "<group>"; };
+		E60FCA4023C972250084B7E6 /* CDRotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDRotationView.h; sourceTree = "<group>"; };
+		E60FCA4123C972250084B7E6 /* CDRotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDRotationView.m; sourceTree = "<group>"; };
+		E60FCA4323C9726E0084B7E6 /* AlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		E60FCA4423C9726E0084B7E6 /* AlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		E60FCA4723C97FEE0084B7E6 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E61F5B6923C24C4F00651AE7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E61F5B6A23C3941A00651AE7 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E622ED8B23C90C1100351516 /* Lyric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lyric.h; sourceTree = "<group>"; };
+		E622ED8C23C90C1100351516 /* Lyric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyric.m; sourceTree = "<group>"; };
+		E622ED8E23C910AD00351516 /* ListBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBottomView.xib; sourceTree = "<group>"; };
+		E64B7AA523C3A43D00E5301F /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E64B7AA623C3A43D00E5301F /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E64B7AAB23C3D4BF00E5301F /* ListBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBottomView.h; sourceTree = "<group>"; };
+		E64B7AAC23C3D4BF00E5301F /* ListBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListBottomView.m; sourceTree = "<group>"; };
+		E6FE8DD523CAA112002D94C3 /* LyricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricViewController.h; sourceTree = "<group>"; };
+		E6FE8DD623CAA112002D94C3 /* LyricViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricViewController.m; sourceTree = "<group>"; };
+		E6FE8DD823CAA653002D94C3 /* LyricCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricCell.h; sourceTree = "<group>"; };
+		E6FE8DD923CAA653002D94C3 /* LyricCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricCell.m; sourceTree = "<group>"; };
+		E84A8E964AEA36788620B1AC /* libPods-Musaxer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Musaxer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6080ECE23B5EF8A00844C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0971BAE630B88E2D0D0B487 /* libPods-Musaxer.a in Frameworks */,
+				E60FCA4823C97FEF0084B7E6 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C33C99D1F28A6FB98EFCF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5219C56B5EB92C6932906131 /* Pods-Musaxer.debug.xcconfig */,
+				20CFEF50CC04E062829F71B8 /* Pods-Musaxer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97065EF349748E25942354E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60FCA4723C97FEE0084B7E6 /* NetworkExtension.framework */,
+				E84A8E964AEA36788620B1AC /* libPods-Musaxer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6080EC823B5EF8900844C79 = {
+			isa = PBXGroup;
+			children = (
+				E6080ED323B5EF8A00844C79 /* Musaxer */,
+				E6080ED223B5EF8A00844C79 /* Products */,
+				22C33C99D1F28A6FB98EFCF3 /* Pods */,
+				97065EF349748E25942354E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6080ED223B5EF8A00844C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6080ED123B5EF8A00844C79 /* Musaxer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6080ED323B5EF8A00844C79 /* Musaxer */ = {
+			isa = PBXGroup;
+			children = (
+				E64B7AA423C3A40F00E5301F /* Player */,
+				E6080F1D23B64A5100844C79 /* Helper */,
+				E6080EFD23B60FF200844C79 /* Model */,
+				E6080EF323B60AA700844C79 /* Controller */,
+				E6080EED23B5F7B500844C79 /* View */,
+				E6080ED423B5EF8A00844C79 /* AppDelegate.h */,
+				E6080ED523B5EF8A00844C79 /* AppDelegate.m */,
+				E6080EE023B5EF9800844C79 /* Assets.xcassets */,
+				E6080EE523B5EF9900844C79 /* Info.plist */,
+				E6080EE623B5EF9900844C79 /* main.m */,
+				E61F5B6923C24C4F00651AE7 /* PrefixHeader.pch */,
+			);
+			path = Musaxer;
+			sourceTree = "<group>";
+		};
+		E6080EED23B5F7B500844C79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E608335723CC797900B5DBF0 /* List */,
+				E608335623CC797100B5DBF0 /* Music */,
+				E6080EE223B5EF9900844C79 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6080EF323B60AA700844C79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6080EF423B60AC400844C79 /* ListViewController.h */,
+				E6080EF523B60AC400844C79 /* ListViewController.m */,
+				E6080EF723B60B7C00844C79 /* MusicViewController.h */,
+				E6080EF823B60B7C00844C79 /* MusicViewController.m */,
+				E6FE8DD523CAA112002D94C3 /* LyricViewController.h */,
+				E6FE8DD623CAA112002D94C3 /* LyricViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6080EFD23B60FF200844C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E622ED8B23C90C1100351516 /* Lyric.h */,
+				E622ED8C23C90C1100351516 /* Lyric.m */,
+				E6080EFF23B6150F00844C79 /* Music.h */,
+				E6080F0023B6150F00844C79 /* Music.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6080F1D23B64A5100844C79 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E6080F1E23B64A6600844C79 /* Helper.h */,
+				E6080F1F23B64A6600844C79 /* Helper.m */,
+				E61F5B6A23C3941A00651AE7 /* Common.h */,
+				E608334C23CC460700B5DBF0 /* NetworkHelper.h */,
+				E608334D23CC460700B5DBF0 /* NetworkHelper.m */,
+				E6080F2123B74FF200844C79 /* GVUserDefaults+Properties.h */,
+				E6080F2223B74FF300844C79 /* GVUserDefaults+Properties.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E608335623CC797100B5DBF0 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E6080F1A23B644E600844C79 /* Slider.h */,
+				E6080F1B23B644E600844C79 /* Slider.m */,
+				E6FE8DD823CAA653002D94C3 /* LyricCell.h */,
+				E6FE8DD923CAA653002D94C3 /* LyricCell.m */,
+				E60FCA4323C9726E0084B7E6 /* AlbumView.h */,
+				E60FCA4423C9726E0084B7E6 /* AlbumView.m */,
+				E608335323CC78E500B5DBF0 /* DeliveryView.h */,
+				E608335423CC78E500B5DBF0 /* DeliveryView.m */,
+				E608335123CC773C00B5DBF0 /* DeliveryView.xib */,
+				E6080F0223B6219300844C79 /* Music.storyboard */,
+				E60FCA4023C972250084B7E6 /* CDRotationView.h */,
+				E60FCA4123C972250084B7E6 /* CDRotationView.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		E608335723CC797900B5DBF0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E6080EF023B5F9AC00844C79 /* ListCell.h */,
+				E6080EF123B5F9AC00844C79 /* ListCell.m */,
+				E6080EEE23B5F7E100844C79 /* List.storyboard */,
+				E64B7AAB23C3D4BF00E5301F /* ListBottomView.h */,
+				E64B7AAC23C3D4BF00E5301F /* ListBottomView.m */,
+				E622ED8E23C910AD00351516 /* ListBottomView.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E64B7AA423C3A40F00E5301F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				E64B7AA523C3A43D00E5301F /* Player.h */,
+				E64B7AA623C3A43D00E5301F /* Player.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6080ED023B5EF8A00844C79 /* Musaxer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6080EEA23B5EF9900844C79 /* Build configuration list for PBXNativeTarget "Musaxer" */;
+			buildPhases = (
+				67D4EDFFEAEFDE8957228686 /* [CP] Check Pods Manifest.lock */,
+				E6080ECD23B5EF8A00844C79 /* Sources */,
+				E6080ECE23B5EF8A00844C79 /* Frameworks */,
+				E6080ECF23B5EF8A00844C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musaxer;
+			productName = Musaxer;
+			productReference = E6080ED123B5EF8A00844C79 /* Musaxer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6080EC923B5EF8A00844C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "郭弘";
+				TargetAttributes = {
+					E6080ED023B5EF8A00844C79 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = E6080ECC23B5EF8A00844C79 /* Build configuration list for PBXProject "Musaxer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6080EC823B5EF8900844C79;
+			productRefGroup = E6080ED223B5EF8A00844C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6080ED023B5EF8A00844C79 /* Musaxer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6080ECF23B5EF8A00844C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6080F0323B6219300844C79 /* Music.storyboard in Resources */,
+				E6080EE423B5EF9900844C79 /* LaunchScreen.storyboard in Resources */,
+				E6080EE123B5EF9800844C79 /* Assets.xcassets in Resources */,
+				E608335223CC773C00B5DBF0 /* DeliveryView.xib in Resources */,
+				E6080EEF23B5F7E100844C79 /* List.storyboard in Resources */,
+				E622ED8F23C910AD00351516 /* ListBottomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67D4EDFFEAEFDE8957228686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Musaxer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6080ECD23B5EF8A00844C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E608335523CC78E500B5DBF0 /* DeliveryView.m in Sources */,
+				E6080F2323B74FF300844C79 /* GVUserDefaults+Properties.m in Sources */,
+				E6080F0123B6150F00844C79 /* Music.m in Sources */,
+				E622ED8D23C90C1100351516 /* Lyric.m in Sources */,
+				E608334E23CC460700B5DBF0 /* NetworkHelper.m in Sources */,
+				E6080ED623B5EF8A00844C79 /* AppDelegate.m in Sources */,
+				E6FE8DD723CAA112002D94C3 /* LyricViewController.m in Sources */,
+				E6080EF923B60B7C00844C79 /* MusicViewController.m in Sources */,
+				E6080EF623B60AC400844C79 /* ListViewController.m in Sources */,
+				E60FCA4223C972250084B7E6 /* CDRotationView.m in Sources */,
+				E64B7AA723C3A43D00E5301F /* Player.m in Sources */,
+				E6FE8DDA23CAA653002D94C3 /* LyricCell.m in Sources */,
+				E6080EE723B5EF9900844C79 /* main.m in Sources */,
+				E6080EF223B5F9AC00844C79 /* ListCell.m in Sources */,
+				E6080F1C23B644E600844C79 /* Slider.m in Sources */,
+				E6080F2023B64A6600844C79 /* Helper.m in Sources */,
+				E64B7AAD23C3D4BF00E5301F /* ListBottomView.m in Sources */,
+				E60FCA4523C9726E0084B7E6 /* AlbumView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6080EE223B5EF9900844C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6080EE323B5EF9900844C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6080EE823B5EF9900844C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6080EE923B5EF9900844C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6080EEB23B5EF9900844C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5219C56B5EB92C6932906131 /* Pods-Musaxer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Musaxer/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FreeStreamer\"",
+					"\"${PODS_ROOT}/Headers/Public/GVUserDefaults\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/NAKPlaybackIndicatorView\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = Musaxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SYSU-group20.Musaxer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Debug;
+		};
+		E6080EEC23B5EF9900844C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CFEF50CC04E062829F71B8 /* Pods-Musaxer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Musaxer/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FreeStreamer\"",
+					"\"${PODS_ROOT}/Headers/Public/GVUserDefaults\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/NAKPlaybackIndicatorView\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = Musaxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SYSU-group20.Musaxer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6080ECC23B5EF8A00844C79 /* Build configuration list for PBXProject "Musaxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6080EE823B5EF9900844C79 /* Debug */,
+				E6080EE923B5EF9900844C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6080EEA23B5EF9900844C79 /* Build configuration list for PBXNativeTarget "Musaxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6080EEB23B5EF9900844C79 /* Debug */,
+				E6080EEC23B5EF9900844C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6080EC923B5EF8A00844C79 /* Project object */;
+}

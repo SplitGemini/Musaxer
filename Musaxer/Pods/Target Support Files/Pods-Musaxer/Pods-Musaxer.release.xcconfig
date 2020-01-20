@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FTPopOverMenu" "${PODS_ROOT}/Headers/Public/FreeStreamer" "${PODS_ROOT}/Headers/Public/GVUserDefaults" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/NAKPlaybackIndicatorView" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage" $(SDKROOT)/usr/include/libxml2
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/FTPopOverMenu" "${PODS_CONFIGURATION_BUILD_DIR}/FreeStreamer" "${PODS_CONFIGURATION_BUILD_DIR}/GVUserDefaults" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/NAKPlaybackIndicatorView" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"FTPopOverMenu" -l"FreeStreamer" -l"GVUserDefaults" -l"MBProgressHUD" -l"MJExtension" -l"NAKPlaybackIndicatorView" -l"Reachability" -l"SDWebImage" -l"c++" -l"xml2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "ImageIO" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
